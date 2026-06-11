@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Todo List</h1>
+    </header>
+
+    <main>
+      <form id="taskForm">
+        <input id="taskTitle" type="text" placeholder="Nueva tarea" required>
+        <textarea id="taskDescription" placeholder="Descripci&oacute;n (opcional)"></textarea>
+        <button type="submit">Agregar</button>
+      </form>
+
+      <section id="taskList" aria-label="Lista de tareas"></section>
+    </main>
+
+    <footer>
+      <p>Todo List &mdash; vanilla JS</p>
+    </footer>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
